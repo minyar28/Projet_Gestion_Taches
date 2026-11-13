@@ -19,3 +19,8 @@ Technologies utilisées
 Exécution
 
 Lancer le fichier main.py pour exécuter le programme.
+création du programme python.
+ajout de la fonctionnalité d'affichage des taches.
+ajout de la fonctionnalité de recherche.
+test des fonctionnalité principales.
+
