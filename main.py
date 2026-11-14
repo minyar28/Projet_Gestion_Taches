@@ -18,7 +18,7 @@ while True:
                 print(i, "-", tache)
     elif choix =="3":
         recherche = input("entrez le nom de la tache à recherche : ")
-        if recherche in taches:
+        if recherche.lower() in [tache.lower() for tache in taches]:
             print("tache trouvée !")
         else:
             print("tache introuvable.")
@@ -27,6 +27,7 @@ while True:
             break
     else:
             print("choix invalide, réessayez.")
+            
 
 
 
